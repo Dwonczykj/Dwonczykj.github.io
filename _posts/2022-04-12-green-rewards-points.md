@@ -9,7 +9,7 @@ As most are already aware, a large problem facing our society today is how to be
 ### What does it mean to become more sustainable
 There is no **singular** definition because different parts of the world emphasize different practices, are affected by differing environmental issues and have differing societal challenges to overcome. But in general, it can be thought of practices that preserve the health of the planet, it's ecosystems and our societies **for future generations**. 
 
-One way that we all have a sizeable impact on the environment is through our grocery shop. Key factors that determine the sustainability of the shop are:
+One way that we all have a size-able impact on the environment is through our grocery shop. Key factors that determine the sustainability of the shop are:
 
 - The choice of store, (some offer more sustainable products than others)
 - Choice of items, some have a lower cost to the environment

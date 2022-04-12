@@ -18,15 +18,20 @@
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
 
+# Site information
 title: The Joey D Internals
 email: jdwonczyk.corp@gmail.com
 description: >- # this means to ignore newlines until "baseurl:"
   Discussing all things Sustainability, Health & Technology
-baseurl: "/" # the subpath of your site, e.g. /blog
-url: "http://dwonczykj.github.io" # the base hostname & protocol for your site, e.g. http://example.com
+baseurl: "" # the subpath of your site, e.g. /blog
+url: "https://dfederm.com"
+# url: "http://dwonczykj.github.io" # the base hostname & protocol for your site, e.g. http://example.com
+
+# https://dfederm.com/creating-a-blog-using-github-pages/
+# Site settings
 twitter_username: joey_m_d
 github_username:  Dwonczykj
-# https://dfederm.com/creating-a-blog-using-github-pages/
+permalink: /:title/
 markdown: kramdown
 paginate: 5
 paginate_path: "/:num/"
@@ -41,15 +46,15 @@ google_analytics: 225673403
 # google_ads: ca-pub-7807152857287265
 
 # Build settings
-theme: minima
+# theme: minima
 plugins:
   - jekyll-feed
   - jekyll-paginate
   - jekyll-seo-tag
   - jekyll-sitemap
 
-sass:
-  sass_dir: _sass
+# sass:
+#   sass_dir: _sass
 
 # Exclude from processing.
 # The following items will not be processed, by default.
