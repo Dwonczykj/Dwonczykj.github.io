@@ -11,7 +11,7 @@ As most are already aware, a large problem facing our society today is how to be
   <div class="callout-icon-box">🧑‍🚀
   </div>
   <div class="callout-container">
-    <p>First, we must take *'one small step'*</p>
+    <p>First, we must take <i>'one small step'</i></p>
   </div>
 </div>
 
