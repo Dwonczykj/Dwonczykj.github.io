@@ -4,8 +4,6 @@ title: How to build an (overly simplistic) housing data scraper
 categories: [Python, Web-Scraping]
 comments: true
 ---
-# Overview
-
 In this article, I'm going to cover the most basic of basic web scraping scripts to pull the bare minimum of property information off of the property site Trovit Homes ([https://homes.trovit.co.uk/](https://homes.trovit.co.uk/)).
 
 The language used to demonstrate the steps in this article is python. However, there is very little difficulty required to port this code into whatever language you are using. 
