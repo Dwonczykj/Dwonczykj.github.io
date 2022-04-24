@@ -116,7 +116,7 @@ while page <= total_page:
     dom = etree.HTML(str(soup_html),parser=None)
 ```
 
-Notice for this step, I additionally parse the requested html using a xml parser provided by the lxml package  by calling <span style="color: green; font: 16px monospace;">etree.HTML(html_str)</span>. I do this so that I can use XPath selectors to select individual tags in the html.
+Notice for this step, I additionally parse the requested html using a xml parser provided by the lxml package  by calling <span style="color: orange; font: 16px monospace;">etree.HTML(html_str)</span>. I do this so that I can use XPath selectors to select individual tags in the html.
 
 <!-- <aside>
 💡 *This xml parsing step simply allows us to query the html document as though it were xml.*
@@ -144,7 +144,7 @@ nofitem = len(dom.xpath('//div[@class="item-title"]'))
 I first define a couple of helper functions that contain logic to extract html tag contents. I do this to avoid needing to re-write this logic for each type of key information that we intend to extract. The helper functions simply wrap logic to:
 
 1. Try to select a tag from the html based on the passed XPath selector
-2. If such a tag exists, get the <span style="color: green; font: 16px monospace;">i</span><sup>th</sup> match where <span style="color: green; font: 16px monospace;">i</span> refers to the <span style="color: green; font: 16px monospace;">i</span><sup>th</sup> result on the page that we want to extract information from
+2. If such a tag exists, get the <span style="color: orange; font: 16px monospace;">i</span><sup>th</sup> match where <span style="color: orange; font: 16px monospace;">i</span> refers to the <span style="color: orange; font: 16px monospace;">i</span><sup>th</sup> result on the page that we want to extract information from
 
 ```python
 def attr_from_xpath(xpath:str, num:int, attr_name:str='text'):
@@ -161,7 +161,7 @@ def attr_from_item_xpath(item_name:str, num:int):
     return attr_from_xpath(xpath=f'//div[contains(@class,"item-{item_name}")]/span', num=num)
 ```
 
-These functions are used to select tags containing key property information. For each match, I extract the attribute of interest and append the result to a list variable such as <span style="color: green; font: 16px monospace;">title1</span> and <span style="color: green; font: 16px monospace;">address1</span> below.
+These functions are used to select tags containing key property information. For each match, I extract the attribute of interest and append the result to a list variable such as <span style="color: orange; font: 16px monospace;">title1</span> and <span style="color: orange; font: 16px monospace;">address1</span> below.
 
 ```python
 while num < nofitem:            
