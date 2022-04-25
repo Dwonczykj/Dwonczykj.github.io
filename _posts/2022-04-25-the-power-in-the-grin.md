@@ -1,10 +1,10 @@
 ---
 layout: post
-title: "Say Cheeeeese!" - The power in the grin
+title: Say Cheeeeese! - The power in the grin
 categories: [self-improvement]
 comments: true
 ---
-Smiling is an expression not an emotion. It is just as much an action as a reaction. It can be used to communicate warmth as well as to warn. The smile is a versatile tool in the social tool box that we might unknowingly neglect. In this article, I would like to both educate and persuade you on the pros of that cheesy grin! 😁
+Smiling is an expression not an emotion. It is just as much an action as a reaction. It can be used to communicate warmth as well as to signal a warning. The smile is a versatile tool in the social tool box that we might unknowingly neglect. In this article, I would like to both educate and persuade you on the pros of that cheesy grin! 😁
 
 ## Who?
 
@@ -28,8 +28,6 @@ Smiling is the same, but instead of your surroundings dictating to you, take con
     5. sport
     6. ...
 3. Combined with the above, smiling **lowers stress** and its effects are cumulatively beneficial the more days of proactively smiling that you achieve. If stress is one of the largest contributors to unhappiness, fatigue or weight issues in your life, then smiling on its own may be part of the solution.
-
----
 
 ## When?
 

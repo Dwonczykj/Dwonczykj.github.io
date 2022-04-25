@@ -1,3 +1,0 @@
-this is a test file for me to  start learaning vim.
-
-Lets add some new lines.
