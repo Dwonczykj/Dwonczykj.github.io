@@ -26,10 +26,10 @@ description: >- # this means to ignore newlines until "baseurl:"
   Discussing all things Sustainability, Health & Technology
 baseurl: "" # the subpath of your site, e.g. /blog
 url: ""
-# url: "https://dfederm.com"
+# url: "https://dwonczykj.com"
 # url: "http://dwonczykj.github.io" # the base hostname & protocol for your site, e.g. http://example.com
 
-# https://dfederm.com/creating-a-blog-using-github-pages/
+# https://dwonczykj.com/creating-a-blog-using-github-pages/
 # Site settings
 twitter_username: joey_m_d
 github_username:  Dwonczykj
