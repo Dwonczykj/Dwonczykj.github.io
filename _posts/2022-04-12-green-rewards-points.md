@@ -4,7 +4,7 @@ title: Reward sustainability, not charge for it!
 categories: [Sustainability, ESG]
 comments: true
 ---
-As most are already aware, a large problem facing our society today is how to be more sustainable and *importantly*, how can society achieve this quickly.
+As most are already aware, a large problem facing our society today is how to be more sustainable and *importantly*, how society can achieve this quickly.
 
 
 <div class="callout">
