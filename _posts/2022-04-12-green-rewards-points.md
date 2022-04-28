@@ -89,6 +89,16 @@ Additional <span style="color: green"><b>green rewards points</b></span> would a
 - re-using fruit & veg sacks where possible,
 - using products like [Loop](https://www.tescoplc.com/sustainability/taking-action/environment/packaging/our-partnership-with-loop/) (partnered with Tescos) that further reduce an individual's footprint and actively move society in the direction of a 100% circular economy.
 
+<div class="callout">
+  <div class="callout-icon-box">👨‍⚕️
+  </div>
+  <div class="callout-container">
+    <p>"It doesn't matter how big the step is, as long as it's in the right direction."<p>
+    <br/>
+    <p>— Dr. Mike Dow</p>
+  </div>
+</div>
+
 ## Valuing green rewards points
 
 Green rewards points will have a value equivalent to an amount of money, for example <span class="money">£ 0.01</span>. 
