@@ -27,7 +27,9 @@ body {
   overflow-wrap: break-word;
 }
 
-
+body, p {
+  color: $text-color !important;
+}
 
 
 
