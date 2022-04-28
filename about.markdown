@@ -6,13 +6,13 @@ permalink: /about/
 ---
 
 <p>
-<!-- <img src="/assets/images/IMG_3388.jpeg" width="200" alt="Joey D" style="float: left; margin: 0 1.5em 15px 0; min-width: 150px; max-width: 45%" /> -->
+<img src="/assets/images/IMG_3388.jpeg" width="200" alt="Joey D" style="float: left; margin: 0 1.5em 15px 0; min-width: 150px; max-width: 45%" />
 
-<div class="badge-base LI-profile-badge" data-locale="en_US" data-size="medium" data-theme="dark" data-type="VERTICAL" data-vanity="joe-dwonczyk" data-version="v1" style="float: left; margin: 0 1.5em 15px 0; min-width: 150px; max-width: 45%">
+<!-- <div class="badge-base LI-profile-badge" data-locale="en_US" data-size="medium" data-theme="dark" data-type="VERTICAL" data-vanity="joe-dwonczyk" data-version="v1" style="float: left; margin: 0 1.5em 15px 0; min-width: 150px; max-width: 45%">
     <a class="badge-base__link LI-simple-link" href="https://uk.linkedin.com/in/joe-dwonczyk?trk=profile-badge">
         
     </a>
-</div>
+</div> -->
 <p class="site-theme">
 My name is Joey and I have spent the last couple years building <i>temporary</i> financial freedom.
 <br/>
