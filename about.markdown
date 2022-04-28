@@ -5,7 +5,7 @@ order: 2
 permalink: /about/
 ---
 
-<p class="site-theme">
+<p>
 <!-- <img src="/assets/images/IMG_3388.jpeg" width="200" alt="Joey D" style="float: left; margin: 0 1.5em 15px 0; min-width: 150px; max-width: 45%" /> -->
 
 <div class="badge-base LI-profile-badge" data-locale="en_US" data-size="medium" data-theme="dark" data-type="VERTICAL" data-vanity="joe-dwonczyk" data-version="v1" style="float: left; margin: 0 1.5em 15px 0; min-width: 150px; max-width: 45%">
@@ -25,6 +25,13 @@ I am now building a <span style="color: green"><i>'green'</i></span> rewards sys
 * [Github](https://github.com/Dwonczykj){:target="_blank"} - Software projects & experiments
 * [LinkedIn](http://www.linkedin.com/in/joe-dwonczyk/){:target="_blank"} - My professional profile
 
+## My Bio
 <iframe style="border: 1px solid rgba(0, 0, 0, 0.1);" width="100%" height="450" src="https://www.figma.com/embed?embed_host=share&url=https%3A%2F%2Fwww.figma.com%2Ffile%2FsNltm9s70TlQlTQpGh8syH%2FBio%3Fnode-id%3D0%253A1" allowfullscreen></iframe>
 
+## Git Contributions
+<!-- Prepare a container for your calendar. -->
+<div class="calendar">
+    <!-- Loading stuff -->
+    Loading the data just for you.
+</div>
 

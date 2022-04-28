@@ -11,9 +11,9 @@ dl, dd, ol, ul, figure {
 /**
  * Basic styling
  */
-body, .site-theme {
+body {
   font: $base-font-weight #{$base-font-size}/#{$base-line-height} $base-font-family;
-  color: $text-color;
+  color: $text-color !important;
   background-color: $gutter-color;
   -webkit-text-size-adjust: 100%;
   -webkit-font-feature-settings: "kern" 1;
@@ -26,6 +26,8 @@ body, .site-theme {
   flex-direction: column;
   overflow-wrap: break-word;
 }
+
+
 
 
 
