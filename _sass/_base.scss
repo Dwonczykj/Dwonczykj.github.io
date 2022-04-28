@@ -11,7 +11,7 @@ dl, dd, ol, ul, figure {
 /**
  * Basic styling
  */
-body,p,span {
+body, .site-theme {
   font: $base-font-weight #{$base-font-size}/#{$base-line-height} $base-font-family;
   color: $text-color;
   background-color: $gutter-color;
@@ -26,6 +26,8 @@ body,p,span {
   flex-direction: column;
   overflow-wrap: break-word;
 }
+
+
 
 /**
  * Set `margin-bottom` to maintain vertical rhythm

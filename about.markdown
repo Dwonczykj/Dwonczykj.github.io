@@ -5,7 +5,7 @@ order: 2
 permalink: /about/
 ---
 
-<p>
+<p class="site-theme">
 <!-- <img src="/assets/images/IMG_3388.jpeg" width="200" alt="Joey D" style="float: left; margin: 0 1.5em 15px 0; min-width: 150px; max-width: 45%" /> -->
 
 <div class="badge-base LI-profile-badge" data-locale="en_US" data-size="medium" data-theme="dark" data-type="VERTICAL" data-vanity="joe-dwonczyk" data-version="v1" style="float: left; margin: 0 1.5em 15px 0; min-width: 150px; max-width: 45%">
@@ -13,11 +13,12 @@ permalink: /about/
         
     </a>
 </div>
-
+<p class="site-theme">
 My name is Joey and I have spent the last couple years building <i>temporary</i> financial freedom.
 <br/>
 I am now building a <span style="color: green"><i>'green'</i></span> rewards system for supermarkets to increase their volume of sustainable product sales whilst maintaining profitability and progressively increasing ESG ratings for years to come. This system is a critical step in obtaining mass adoption of sustainable practices across our society as opposed to in isolated communities. The rewards design will incentivise consumers to buy more sustainable products whilst simultaneously encouraging suppliers to produce more sustainable products as a result of this increase in sales across sustainable ranges. The industry as a whole will then accelerate its transition to more sustainable practices immediately as opposed to waiting for governments to act whom are restricted by bureaucracy and therefore find it difficult to adopt new practices unless in a state of emergency.
 <br style="clear:both;" />
+</p>
 </p>
 
 ## My Profiles
