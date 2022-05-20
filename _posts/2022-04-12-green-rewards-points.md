@@ -1,41 +1,42 @@
 ---
 layout: post
-title: Reward sustainability, not charge for it!
+title: Reward sustainability, don't charge for it!
 categories: [Sustainability, ESG]
 comments: true
 ---
-As most are already aware, a large problem facing our society today is how to be more sustainable and *importantly*, how society can achieve this quickly.
+As most are already aware, a large problem facing our society today is how to be more sustainable, but what is more *important*, is how can we achieve this quickly?
 
+First, we must *learn*...
 
 <div class="callout">
   <div class="callout-icon-box">🧑‍🚀
   </div>
   <div class="callout-container">
-    <p>First, we must take <i>'one small step'</i></p>
+    <p><i>'one small step for man, one giant leap for mankind'</i></p>
   </div>
 </div>
 
 ## What does it mean to become more sustainable?
-There is no **singular** definition because different parts of the world emphasize different practices, are affected by differing environmental issues and have differing societal challenges to overcome. But in general, it can be thought of as practices that preserve the health of the planet, its ecosystems and our societies **for future generations**. 
+There is no **singular** definition of sustainability. This is because different parts of the world emphasise different practices; every country has its own environmental issues and societal challenges to overcome. In general, *sustainability* can be seen as any practice that preserve the health of the planet, its ecosystems and the societies of **future generations**. 
 
 ## How is this relevant to me?
-One way that we all have a size-able impact on the environment is through our grocery shop. Key factors that determine the sustainability of the shop are:
+One way that we can all have a size-able impact on the environment is through our grocery shopping. But how can we determine the sustainability of our shop? These are some key factors to consider:
 
-- The choice of store, (some offer more sustainable products than others)
-- Choice of items, some have a lower cost to the environment
-- How we get the items from store to home
-- Do we re-use shopping bags and recycle old packaging & sacks as directed by manufacturers?
+- Our choice of store (some offer more sustainable products than others)
+- Our choice of items (some products have a lower cost to the environment)
+- How we get our items from the store to home
+- Do we reuse shopping bags and recycle any packaging in the correct way, as directed by manufacturers?
 
-Groceries play a large role in determining our collective environmental impact. 
+We must understand that our choice of groceries play a large role in determining our collective environmental impact. 
 
-With that in mind, it makes sense to discuss the criteria that determine which groceries we buy.
+With that in mind, it makes sense to discuss the criteria that we should follow in determining which groceries to buy.
 
-## What can I buy and why
+## What should I buy and why?
 
-For the majority of us, the largest, most dominating consideration when choosing which products to buy is price.
+For the majority of us, the largest, most dominating factor to consider when choosing which products to buy, is price. We may often consider:
 
 1. Does the cost of the product fit into my daily, weekly budget?
-2. Or is the product reduced? If so how much; is it worth it?
+2. Is the product reduced? If so, by how much, is it worth it?
 
 ![A supermarket product with a reduced label](/assets/images/ReducedSupermarketItems.jpeg){: .center }
 
@@ -44,50 +45,49 @@ On the other hand, for the minority of us, the criteria are very different:
 1. Is the product organic / sustainably sourced?
 ![Sustainably sourced labels](/assets/images/SustainablySourcedSupermarketItemLabels.jpeg){: .center }
 2. Does the product contain potentially harmful chemicals for our environment when used / disposed of?
-3. Does a certain percentage of every purchase of that product fund a good cause; perhaps health care, a charity, an initiative in our schools...
+3. Does a certain percentage of every purchase of the product fund a good cause - perhaps health care, a charity, or an initiative in our schools...
 
-The reason that these criteria can't all be met together is, ***in general***, products that tick the latter 3 points on sustainability and benefits to society simply cost more to manufacture and therefore to buy. This sadly, then rules them out of most shopping baskets for the majority of the population for which price is the biggest consideration.
+The reason that these criteria can't all be met together is, ***in general***, products that tick the latter 3 points simply cost more to manufacture and therefore, to buy. Unfortunately, with price point being the majority of the population's main consideration, these products are often ruled out of most people’s shopping baskets.
 
 <br>
 
-# Solution
+# What is the solution?
 
 <div class="callout">
   <div class="callout-icon-box">❓
   </div>
   <div class="callout-container">
-    <p>Can the trade-off between sustainability and price be reversed such that one improves the other?</p>
+    <p>Can the trade-off between sustainability and price be reversed? So that one improves the other?</p>
   </div>
 </div>
 
-Any solution must incentivise customers, for whom **price** is the biggest consideration, by giving them the option to choose products that maximize <span style="color: green"><b>benefit to our society</b></span>, minimize the impact on our environment; all whilst satisfying their budgetary constraints. 
+Most importantly, any solution we use must incentivise customers, for whom **price** is the biggest consideration by giving them the option to choose products that maximise any <span style="color: green"><b>benefit to our society</b></span>, minimise the impact on our environment; all whilst satisfying their budgetary constraints... 
 ## Rewards schemes
 
-Rewards schemes have existed in the retail industry for decades. They have the benefit of being both: simple to account for from the retailer's point of view as well as being easily recognizable from the point of view of the customer.
+Rewards schemes have existed in the retail industry for decades. They have the benefit of being both simple to account for from the retailer's point of view, as well as being easily recognizable from the point of view of the customer.
 
-## Checkout 🎬
+When paying for groceries, customers can receive a receipt of purchase. With a <span style="color: green"><b>green points rewards scheme</b></span> in place, each item will display not only its price, but also the number of green points awarded for buying that item. These green points can then be used to claim rewards i.e. an incentive. (*More about this process in a future post*)
 
-When paying for groceries, customers receive a receipt of purchase. With a <span style="color: green"><b>green points rewards scheme</b></span> in place, each item will display: not only its price, but also the number of green points awarded for buying that item.
 
 ## Would all items earn green points?
 
 **No**!
 
-Unsustainable products **must** be removed from shopping baskets **ASAP** in order to transition towards sustainable living practices as quickly as possible. Without action, further, more significant damage will be done to the lives of future generations. Therefore it must be possible for consumers to take these actions. This evidences the need for a <span style="color: green"><b>green points rewards scheme</b></span>.
+In order to take advantage of rewards, any unsustainable products **must** be removed from shopping baskets, **ASAP**. The green points rewards scheme rewards those who act fast - in order to transition towards sustainable living practices as quickly as possible. Without further action, yet more damage will be done to the lives of our future generations. Therefore, it must be beneficial for consumers to take these actions. This evidences the need for a <span style="color: green"><b>green points rewards scheme</b></span>.
 
 ## Calculating reward size
 
-The <span style="color: green"><b>green rewards points</b></span> are awarded to customers based on:
+The <span style="color: green"><b>green rewards points</b></span> are awarded to customers for <span style="color: blue">product choices</span> based on:
 
 - the environmental impact of the product
 - the supply chain impact of the product
 - the benefit to society from each sale of the product
 
-Additional <span style="color: green"><b>green rewards points</b></span> would also be rewarded for further sustainable actions such as:
+<span style="color: green"><b>Green rewards points</b></span> would also be awarded for <span style="color: blue">sustainable actions</span> such as:
 
-- re-using shopping bags,
-- re-using fruit & veg sacks where possible,
-- using products like [Loop](https://www.tescoplc.com/sustainability/taking-action/environment/packaging/our-partnership-with-loop/) (partnered with Tescos) that further reduce an individual's footprint and actively move society in the direction of a 100% circular economy.
+- re-using shopping bags
+- re-using fruit & veg sacks where possible
+- using products like [Loop](https://www.tescoplc.com/sustainability/taking-action/environment/packaging/our-partnership-with-loop/) (partnered with Tescos) - that further reduce an individual's footprint and actively move society in the direction of a 100% circular economy
 
 <div class="callout">
   <div class="callout-icon-box">👨‍⚕️
@@ -101,14 +101,14 @@ Additional <span style="color: green"><b>green rewards points</b></span> would a
 
 ## Valuing green rewards points
 
-Green rewards points will have a value equivalent to an amount of money, for example <span class="money">£ 0.01</span>. 
+Green rewards points will initially be valued at a sum of money, for example <span class="money">£ 0.01</span>. 
 
-By having a monetary value, consumers acquire a *real* increase in disposable income in stores that offer <span style="color: green"><b>green rewards points</b></span>. The points rewards would both:
+By having a monetary value, consumers acquire a *real* **increase in disposable income** in stores that offer <span style="color: green"><b>green rewards points</b></span>. The points rewards would both:
 - increase volume of sustainable products sold in these stores
 - make sustainable products affordable for more consumers
 
 # Closing words
-In this article, I have discussed one possible action plan to achieve a rapid transition towards more sustainable supermarket shopping practices. To begin, retailers must take the first step by adopting a <span style="color: green"><b>green rewards points</b></span> to give consumers the choice to act more sustainably.
+In this article, I have discussed one possible action plan to achieve a rapid transition towards more sustainable supermarket shopping. To begin with, retailers must integrate a <span style="color: green"><b>green rewards scheme</b></span> so that consumers **can** act more sustainably.
 <br>
 
 
