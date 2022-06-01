@@ -90,3 +90,11 @@ The layout of the style sheets is to have a main style sheet named site.scss. Th
 #   sass_dir: _sass
 ```
 Then finally, there is a linking file located in assets/css/style.scss which imports the site.scss and exposes the styles defined there to the public site.
+
+## Site Variables and Piping Operator '|'
+
+It is worth mentioning that when you see the following syntax in the html:
+```html
+<link rel="stylesheet" href="{{ " /assets/css/notion.css" | relative_url }}">
+```
+here the string " /assets/css/notion.css" is piped to the relative_url function defined by [Liquid.Jekyll](https://jekyllrb.com/docs/liquid/)
