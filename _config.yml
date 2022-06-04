@@ -70,6 +70,7 @@ exclude:
 - _notion_html_to_md.md
 - _run_dev.md
 - _setting-up-the-blog-on-Github-io.md
+- notion_exports/
 #   - .sass-cache/
 #   - .jekyll-cache/
 #   - gemfiles/
