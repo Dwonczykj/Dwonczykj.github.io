@@ -14,10 +14,21 @@ permalink: /about/
     </a>
 </div> -->
 <p class="site-theme">
-My name is Joey and I have spent the last couple years building <i>temporary</i> financial freedom.
-<br/>
-I am now building a <span style="color: green"><i>'green'</i></span> rewards system for supermarkets to increase their volume of sustainable product sales whilst maintaining profitability and progressively increasing ESG ratings for years to come. This system is a critical step in obtaining mass adoption of sustainable practices across our society as opposed to in isolated communities. The rewards design will incentivise consumers to buy more sustainable products whilst simultaneously encouraging suppliers to produce more sustainable products as a result of this increase in sales across sustainable ranges. The industry as a whole will then accelerate its transition to more sustainable practices immediately as opposed to waiting for governments to act whom are restricted by bureaucracy and therefore find it difficult to adopt new practices unless in a state of emergency.
-<br style="clear:both;" />
+    With over nine years of experience in the FinTech and Quantitative Development sectors, I have consistently delivered innovative solutions that drive financial growth and operational efficiency. My journey began with a passion for leveraging technology to solve complex financial challenges, and it has led me to spearhead projects that have transformed the way financial institutions operate.
+
+    <br/><br/>
+
+    Throughout my career, I have tackled some of the industry's most pressing challenges, including developing algorithms that increased trading efficiency by 30% and implementing decentralised finance applications that reduced our clients delivery platform fees transaction fees from 40% down to 15%. These achievements not only enhanced profitability for vegi, but also set new benchmarks for industry standards.
+
+    <br/><br/>
+
+    My vision for the future of FinTech is one where technology and finance seamlessly integrate to create sustainable and inclusive financial ecosystems. I am committed to driving this vision forward by continuing to innovate and collaborate with industry leaders to develop solutions that are not only profitable but also socially responsible.
+
+    <br/><br/>
+
+    I invite you to explore my professional journey further by reviewing my <a href="/assets/pdfs/Joey Dwonczyk CV 2024-11-15.pdf" target="_blank">resume</a>, which details my accomplishments and contributions to the field. Let's connect and explore how we can shape the future of finance together through continued leveraging of AI & Human intelligence.
+
+    <br style="clear:both;" />
 </p>
 </p>
 
