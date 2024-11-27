@@ -50,10 +50,9 @@ permalink: /about/
 
 ## Git Contributions
 <!-- Prepare a container for your calendar. -->
-<div class="calendar">
-    <!-- Loading stuff -->
+<!-- <div class="calendar">
     Loading the data just for you.
-</div>
+</div> -->
 
 <br style="clear:both;" />
 
