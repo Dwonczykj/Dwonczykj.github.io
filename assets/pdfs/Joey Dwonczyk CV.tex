@@ -1,0 +1,290 @@
+%------------PACKAGES----------------
+\documentclass[a4paper,11pt]{article}
+
+\usepackage{verbatim}
+\usepackage{titlesec}
+\usepackage{color}
+\usepackage{enumitem}
+\usepackage{fancyhdr}
+\usepackage{tabularx}
+\usepackage{latexsym}
+\usepackage{marvosym}
+\usepackage[empty]{fullpage}
+\usepackage[hidelinks]{hyperref}
+\usepackage[normalem]{ulem}
+\usepackage[english]{babel}
+% Adding the image at the bottom with a caption
+\usepackage{graphicx} % Needed to insert images
+\usepackage{subcaption}  % Needed to place images side by side
+\usepackage{caption}  % For image caption
+
+\input glyphtounicode
+\pdfgentounicode=1
+
+%----------CAPTION OPTIONS-------------------
+\captionsetup{justification=centering, singlelinecheck=true}
+\captionsetup[subfigure]{labelformat=empty}  % Remove (a), (b) prefixes
+
+%----------FONT OPTIONS-------------------
+\usepackage[default]{sourcesanspro}
+\urlstyle{same}
+
+%----------MARGIN OPTIONS-----------------
+\pagestyle{fancy}
+\fancyhf{}
+
+\renewcommand{\headrulewidth}{0in}
+\renewcommand{\footrulewidth}{0in}
+
+\setlength{\tabcolsep}{0in}
+
+\addtolength{\oddsidemargin}{-0.5in}
+\addtolength{\topmargin}{-0.5in}
+
+\addtolength{\textwidth}{1.0in}
+\addtolength{\textheight}{1.0in}
+
+\raggedbottom{}
+\raggedright{}
+
+%--------SECTIONING COMMANDS---------
+\titleformat{\section}
+  {\scshape\large}{}
+    {0em}{\color{blue}}[\color{black}\titlerule\vspace{0pt}]
+
+%--------REDEFINITIONS----------------
+\renewcommand\labelitemii{$\vcenter{\hbox{\tiny$\bullet$}}$}
+\renewcommand{\ULdepth}{2pt}
+
+%--------CUSTOM COMMANDS--------------
+\newcommand{\resumeItem}[1]{
+  \item\small{#1}
+}
+
+\newcommand{\resumeItemListStart}{\begin{itemize}[rightmargin=0.11in]}
+\newcommand{\resumeItemListEnd}{\end{itemize}}
+
+\newcommand{\resumeSectionType}[3]{
+  \item\begin{tabular*}{0.96\textwidth}[t]{
+    p{0.15\linewidth}p{0.02\linewidth}p{0.81\linewidth}
+  }
+    \textbf{#1} & #2 & #3
+  \end{tabular*}\vspace{-2pt}
+}
+
+\newcommand{\resumeTrioHeading}[3]{
+  \item\small{
+    \begin{tabular*}{0.96\textwidth}[t]{
+      l@{\extracolsep{\fill}}c@{\extracolsep{\fill}}r
+    }
+      \textbf{#1} & \textit{#2} & #3
+    \end{tabular*}
+  }
+}
+
+\newcommand{\resumeQuadHeading}[4]{
+  \item
+  \begin{tabular*}{0.96\textwidth}[t]{l@{\extracolsep{\fill}}r}
+    \textbf{#1} & #2 \\
+    \textit{\small#3} & \textit{\small #4} \\
+  \end{tabular*}
+}
+
+\newcommand{\resumeQuadHeadingChild}[2]{
+  \item
+  \begin{tabular*}{0.96\textwidth}[t]{l@{\extracolsep{\fill}}r}
+    \textbf{\small#1} & {\small#2} \\
+  \end{tabular*}
+}
+
+\newcommand{\resumeHeadingListStart}{
+  \begin{itemize}[leftmargin=0.15in, label={}]
+}
+\newcommand{\resumeHeadingListEnd}{\end{itemize}}
+
+%__________________RESUME____________________
+\begin{document}
+
+%-----------CONTACT DETAILS------------------
+\begin{tabular*}{\textwidth}{l@{\extracolsep{\fill}}r}
+  \textbf{\Huge Joey Dwonczyk \vspace{2pt}} & % row = 1, col = 1
+  London, UK \\ % row = 1, col = 2
+  \href{https://joeyd.uk}{\uline{joeyd.uk}} $|$ % row = 2, col = 1
+  \href{https://linkedin.com/in/joe-dwonczyk}{\uline{LinkedIn}} $|$ % row = 2, col = 1
+  \href{https://github.com/Dwonczykj}{\uline{GitHub}} & % row = 2, col = 1
+  Email: \href{mailto:jdwonczyk.corp@gmail.com}{\uline{jdwonczyk.corp@gmail.com}} $|$ % row = 2, col = 2
+  Mobile: +44 79055 32512 \\ % row = 2, col = 2
+  % TODO: Place the QR_latest.png in here without increasing the height of this section potentially reducing the vertical spacing between this section and the SUMMARY section
+\end{tabular*}
+%--------------------------------------------
+
+
+%-----------SUMMARY--------------------------
+\section{AI Engineer}
+\small{
+  Mathematician with several years experience designing and implementing ML models and financial systems, now focused on LLMs, RAG, vision and multi-modal embedding in production. Over 10 years exp. of Python, SQL, and cloud infrastructure for scalable solutions (dynamic + load balancing + fail safe). ML Solutions deployed to AWS lambda production environments, particularly in financial services. \textit{Preference for non-remote, but happy either way.}
+}
+%--------------------------------------------
+
+
+%--------------SKILLS------------------------
+\section{Technical Skills}
+  \resumeHeadingListStart{}
+    \resumeSectionType{AI}{:}{Multi-modal RAG [\ref{llm_project_1}], Semi-automated prompt engineering, CNN/LSTM in small models, Recommendation Systems, Clustering [\ref{clustering_project_1}]}
+    
+    \resumeSectionType{Languages}{:}{\textbf{Python}, \textbf{Typescript}, \textbf{Dart}, C\#, VB, Solidity / Rust}
+    
+    \resumeSectionType{Frameworks}{:}{Node.js, \textbf{Flutter}, \textbf{React}, Firebase [\ref{firebase}]}
+    
+    \resumeSectionType{Libraries}{:}{Pandas, Dash, TensorFlow [\ref{pytorch}], PyTorch [\ref{pytorch}], Scikit-learn, OpenCV, FastAPI, Keras, OpenCV, Langchain [\ref{langchain}], \textbf{HuggingFace}, YahooFinance, QuantLib, Web3Auth, Redux}
+    
+    \resumeSectionType{Financial Models}{:}{CDS Pricing, Monte Carlo Simulations, PDE Solving, Vanilla Equity Options, Rate Swaps, OTC Eq. Options, IR Bonds, Inf-li Bonds, FX Swaps, Equity Basket Options}
+    
+    \resumeSectionType{Cloud \& DevOps}{:}{AWS [\ref{cloud_compute}] (EC2, S3, SES), \textbf{Docker}, GCP, Heroku [\ref{heroku}]}
+    
+    \resumeSectionType{Databases}{:}{Neo4j, SQL, MongoDB, \textbf{PostgreSQL}}
+    
+    \resumeSectionType{Blockchain}{:}{Fuse Blockchains, Solidity Smart Contracts}
+  \resumeHeadingListEnd{}
+%--------------------------------------------
+
+
+%-----------EXPERIENCE-----------------------
+\section{Experience}
+\resumeHeadingListStart{}
+  
+  \resumeQuadHeading{Founder, Joey's Jars}{Jan 2024 -- Present}
+  {London, UK}{Remote}
+    \resumeItemListStart{}
+      \resumeItem{Launched and scaled a health-focused food tech business \textbf{successfully delivering over 200 jars / week} through both D2B and Shopify sales; overseeing operations, sales, and app development for corporate wellness.}
+      \resumeItem{Shopify platform with custom features + fitness tracking app with smart fridge integration using a Flutter | Firebase\label{firebase} | (GoogleAuth / OAuth) | Python FastAPI Back-end hosted on Heroku\label{heroku} | CI CD Environment automated testing in git commit pipeline.}
+    \resumeItemListEnd{}
+
+  \resumeQuadHeading{CTO, Founder, vegi}{Summer 2022 -- Dec 2023}
+  {Liverpool, UK}{Remote}
+    \resumeItemListStart{}
+\resumeItem{Developed an eco-conscious debit card platform from scratch, featuring two PostgreSQL databases connected to a \textbf{NodeJS} back-end and a Sailsjs admin back-end. Built a cross-native Flutter (Dart) app for clients and merchants, integrating Ethereum layer 2 blockchain for payments. Designed real-time cashback algorithms using a Python FastAPI back-end hosted on Heroku. \textbf{Platform valued at £120,000 in December 2022.}}
+\resumeItem{Implemented computer vision and OCR technologies for product recognition, developing ML models using TensorFlow and PyTorch\label{pytorch} that achieved \textbf{90\% accuracy in production} deployment (\textbf{AWS})\label{cloud_compute}.
+}
+\resumeItem{Dockerized complex Conda (\textbf{Python}) containers for machine learning algorithms and managed the entire AWS cloud infrastructure, lambda serverless functions, including S3, SES, and EC2 to host our PostgreSQL databases.}
+\resumeItem{Led the backend development with NodeJS and integrated Google authentication and experimenting with a Neo4j graph database for storing product embeddings.}
+\resumeItem{Responsible for communication of technology + payments infrastructure to all merchant clients to facilitate on-boarding and satisfy their technical requirements.}
+\resumeItem{Organised the second major fund-raise of £100K in end of 2022 building pitch assets and projections.}
+\resumeItemListEnd{}
+
+\resumeQuadHeading{Senior Associate, Structured Equity Trading Desk}{2021 -- 2022}
+  {River and Mercantile Derivatives (now Schroders Bank)}{London, UK}
+    \resumeItemListStart{}
+      \resumeItem{Analyzed complex financial datasets using Python and ML libraries (Scikit-learn, Numpy, Pandas) to identify patterns in interest rates and implied-volatilities, presenting internal cases for trade automation flows}
+      \resumeItem{Developed proof-of-concept ML models for trade pattern recognition, demonstrating potential for automation in trading workflows}
+      \resumeItem{Designed and executed 30+ structured equity strategies for pension schemes, balancing client risk preferences with market conditions, including hedging strategies and FX exposure management.}
+      \resumeItem{Conducted risk management analysis that \textbf{reduced potential collateral shortfalls up to 99th percentile }and improved MTM calculation accuracy by adjusting pricing sheets to use latest quant pricing models.}
+      \resumeItem{Automated client reporting processes, \textbf{reducing report preparation time by over 50\% with less \textit{human} intervention} making the servicing of an increasing number of clients possible for the existing team.}
+      \resumeItem{Supported prospective client pitches by preparing decks and presenting structured strategies based on market insights and client needs.}
+    \resumeItemListEnd{}
+
+  \resumeQuadHeading{Senior Associate, Quantitative Engineering Desk}{2017 -- 2021}
+  {River and Mercantile Derivatives (now Schroders Bank)}{London, UK}
+    \resumeItemListStart{}
+      \resumeItem{Developed and maintained financial curve builders, \textbf{reducing valuation time by 30\% and improving pricing accuracy by 20\%} for bonds and swaps.}
+      \resumeItem{Built and maintained bond valuation models, enhancing the VBA Excel add-in to reduce data retrieval time by 10\% and adding more helper methods saving the FO team 10 hours weekly when creating new pricing sheets}
+      \resumeItem{Enhanced swap leg pricing logic, decreasing processing errors by 60\% for the new Swap Pricing engine and centralising all swap pricing methodology that had previously lived between spreadsheets and bespoke scripts.}
+      \resumeItem{Implemented a SignalR streaming service in a web API to process real-time ticks from Bloomberg, rebuild financial curves, and stream updates to clients.}
+      \resumeItem{Analyzed over 1 million data points using Python, improving risk assessment accuracy by 35\% and informing strategic client decisions, using tools like Scikit-learn, Numpy, and Pandas.}
+    \resumeItemListEnd{}
+\resumeHeadingListEnd{}
+%———————————————
+
+%———–EDUCATION———————––
+\section{Education}
+\resumeHeadingListStart{}
+
+\resumeQuadHeading{Cambridge Spark}{2020}
+{Certificate in Applied Data Science - Specialized in NLP Fine-tuning, Computer Vision and ML Model Deployment}{\textbf{Distinction}}
+
+\resumeQuadHeading{Fitch Learning}{2019}
+{Certificate in Quantitative Finance}{\textbf{Distinction}}
+
+\resumeQuadHeading{University of Warwick}{2011 – 2015}
+{Integrated Master of Mathematics and Statistics}{\textbf{First Class Hons}}
+
+\resumeQuadHeading{A-Levels}{2011}
+{Mathematics \textbf{A*}, Further Mathematics \textbf{A*}, Physics \textbf{A*}, French \textbf{A}}{}
+\resumeHeadingListEnd{}
+%———————————————
+
+%———–PROJECTS–––––––––––––
+\section{Projects}
+
+\resumeHeadingListStart{}
+\resumeTrioHeading{\href{https://github.com/Dwonczykj/}
+{\uline{Transcriby}}}{Python, \textbf{LangChain, LangGraph}}{\href{https://github.com/Dwonczykj/}{\uline{Private Source}}}
+\resumeItemListStart{}
+\resumeItem{Built an LLM \label{llm_project_1} agnostic user data owned application within WhatsApp and SMS to transcribe, query and automate media and messages from within messaging apps leveraging LangChain\label{langchain} and agentic work flows using LangGraph.}
+\resumeItemListEnd{}
+
+\resumeTrioHeading{\href{https://github.com/Dwonczykj/}{\uline{ML Trade Pattern Analyzer}}}{PyTorch, TensorFlow, AWS}{\href{https://github.com/Dwonczykj/}{\uline{Private Source}}}
+\resumeItemListStart{}
+\resumeItem{Developed proof-of-concept ML system for analyzing trading patterns in financial markets using k-means \& \label{clustering_project_1} spectral clustering and Stochastic Block Model Community Detection}
+\resumeItem{Implemented data pipeline for processing market data and identifying potential trading signals}
+\resumeItem{Utilized AWS infrastructure for scalable data processing and model deployment}
+\resumeItemListEnd{}
+
+\resumeTrioHeading{\href{https://github.com/Dwonczykj/CQFProject}{\uline{Basket CDS Pricer}}}{Python, QuantLib, Cython}{\href{https://github.com/Dwonczykj/CQFProject}{\uline{Source}}}
+\resumeItemListStart{}
+\resumeItem{Built a sophisticated pricing model for basket credit default swaps (CDS), employing Monte Carlo simulations and PDE solving for accurate pricing and risk assessments.}
+\resumeItemListEnd{}
+
+% \resumeTrioHeading{\href{https://github.com/Dwonczykj/}{\uline{Structured Equity Pricing Tool}}}{VBA, C\#}{\href{https://github.com/Dwonczykj/}{\uline{\textit{Proprietary}}}}
+%   \resumeItemListStart{}
+%     \resumeItem{Developed an equity derivatives pricing tool to price and risk-manage exotic options and variance swaps, utilizing advanced financial modeling techniques.}
+%   \resumeItemListEnd{}
+
+\resumeTrioHeading{\href{https://github.com/Dwonczykj/}{\uline{Co-chef Recipe Recommendation System}}}{Python + Langgraph}{\href{https://github.com/Dwonczykj/}{\uline{\textit{Private Source}}}}
+  \resumeItemListStart{}
+    \resumeItem{Combination of local/cloud LLMs; (instruct for scoring and ranking RAG); FAISS Embeddings => Langgraph to structure and research user requirements into recipe recommendations and instructions.}
+  \resumeItemListEnd{}
+  
+\resumeHeadingListEnd{}
+%––––––––––––––––––––––
+
+% %———–CERTIFICATIONS—————––
+% \section{Certifications}
+% \resumeItemListStart{}
+% \resumeItem{Basic Solidity Smart Contracts Training}
+% \resumeItem{\href{https://www.cqf.com/}{\uline{Certificate in Quantitative Finance}}}
+% \resumeItem{\href{https://www.cambridgespark.com/}{\uline{Certificate in Applied Data Science}}}
+% \resumeItemListEnd{}
+% %––––––––––––––––––––––
+
+% Add this at the bottom of your document before the \end{document}
+% \begin{figure}[h!]
+%   \centering
+%   \includegraphics[width=0.1\textwidth]{Maths Visual Curiosities.png} % Adjust the width as needed
+%   \caption*{Perspective}
+% \end{figure}
+% \begin{figure}[h!]
+%   \centering
+%   \includegraphics[width=0.1\textwidth]{QR_latest.png} % Adjust the width as needed
+%   \caption*{Link to latest CV}
+% \end{figure}
+
+\begin{figure}[h!]
+    \centering
+    
+    % \begin{subfigure}[b]{0.4\textwidth}  % Adjust width as needed
+    %     \centering
+    %     \includegraphics[width=0.25\linewidth]{Maths Visual Curiosities.png}
+    %     \caption{Perspective}
+    % \end{subfigure}
+    
+    \hfill
+    
+    \begin{subfigure}[b]{0.4\textwidth}  % Adjust width as needed
+        \centering
+        \includegraphics[width=0.4\linewidth]{QR_latest.png}
+        \caption{\href{https://dwonczykj.github.io/cv/}{https://dwonczykj.github.io/cv/}}
+    \end{subfigure}
+
+\end{figure}
+\end{document}
